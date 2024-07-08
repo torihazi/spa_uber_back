@@ -1,6 +1,6 @@
 module Api
   module V1
-    class Api::V1::RestaurantsController < ApplicationController
+    class RestaurantsController < ApplicationController
       def index
         restaurants = Restaurant.all
         render json: {
