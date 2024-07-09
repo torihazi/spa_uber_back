@@ -6,7 +6,7 @@ class LineFood < ApplicationRecord
   validates :count, numericality: {greater_than: 0}
 
   scope :active, -> {where(active: true)}
-  scope :other_restaurant, -> (picked_restarurant_id) {where.not(restaurant.id: picked_restarurant_id)}
+  scope :other_restaurant, -> (picked_restarurant_id) {where.not(restaurant_id: picked_restarurant_id)}
   
   def total_amount
     food.price * count
