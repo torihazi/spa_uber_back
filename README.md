@@ -1,24 +1,5 @@
-# README
+# 使用したもの
+- Rails 7
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# イメージ
+![spa_uber-ezgif com-video-to-gif-converter](https://github.com/torihazi/spa_uber_back/assets/71245205/0d06b5f7-ab44-4221-9f5b-0032e3af1e57)
