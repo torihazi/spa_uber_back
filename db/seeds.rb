@@ -6,7 +6,7 @@
   )
   12.times do |m|
     restaurant.foods.build(
-      name: "フード名_#{n}",
+      name: "フード名_#{m}",
       price: 500,
       description: "フード_#{m}の説明文です" 
     )
